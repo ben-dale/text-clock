@@ -1,0 +1,34 @@
+@font-face {
+	font-family: 'Raleway';
+	font-style: normal;
+	src: local('Raleway'), url(raleway.woff) format('woff');
+}
+
+body {
+	background:black;
+}
+
+.container {
+	margin: auto;
+	position: absolute;
+	top: 0; left: 0; bottom: 0; right: 0;
+	height:550px;
+}
+
+.clock-text {
+	font-size:60px;
+	color:#121212;
+	font-family: 'Raleway', sans-serif;
+}
+
+.clock-text span {
+	margin:10px;
+}
+
+.white {
+	color:white;
+}
+
+.row {
+	margin:0;
+}
